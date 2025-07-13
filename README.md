@@ -43,7 +43,7 @@ This project is an **automated music playback system for temples**, designed to 
 
 ## 🧠 Logic Flow
 
-```text
+```
 [Start] 
    ↓
 [Load Time Slots from EEPROM]
@@ -59,18 +59,29 @@ This project is an **automated music playback system for temples**, designed to 
 [Inactivity Timeout → Exit Setup Mode]
    ↓
 [Loop Back]
+```
 
-📂 File Structure
-bash
-Copy
-Edit
+---
+
+## 📂 File Structure
+
+```
 temple_automatic_music_system/
 ├── temple_music.ino        # Main Arduino sketch
 ├── README.md               # Project Documentation
 └── diagrams/               # (Optional) Circuit or flow diagrams
+```
 
-📜 License
-This project is open-source and released under the MIT License.
+---
 
-🙏 Acknowledgements
+## 📜 License
+
+This project is open-source and released under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
 Inspired by traditional temple rituals and the need for automation in rural areas.
+
+> 💡 *Feel free to contribute or adapt this system for your local temple or spiritual center.*
